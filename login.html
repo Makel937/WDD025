@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(100, 45, 126, 0.767);
+        }
+        form {
+            padding: 50px; margin: 200px;
+            border: 5px solid;
+            background-color: grey;
+            border-radius: 25px;
+            box-shadow: 1px 4px 2px;
+            border-color: black;
+            padding-top: 60px;
+        }
+        .submit {
+            border: 5px solid;
+            border-radius: 25px;
+            box-shadow: 1px 4px 2px;
+            background-color: aqua;
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+        .email {
+            border: 5px solid;
+            border-radius: 25px;
+            box-shadow: 1px 4px 2px;
+            padding: 20px;
+        }
+        .password {
+            border: 5px solid;
+            border-radius: 25px;
+            box-shadow: 1px 4px 2px;
+            margin-right: 20px;
+            padding: 20px;
+        }
+        li {
+             background-color: white;
+             text-decoration: none;
+             list-style-type: none;
+             display: inline-block;
+             margin: 10px solid;
+             
+        }
+        nav{
+             background-color: gray;
+             border: 5px solid;
+             padding: 15px;
+             border-radius: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+    <li><a href="#">Adress,</a></li>
+    <li><a href="#">About,</a><li>
+    <li><a href="#">Services,</a></li> 
+    <li><a href="#">and Contacts</a></li> 
+    </nav>
+    <form>
+        <label for="email" style="font-size: 30px;">Email:</label>
+    <input type="email" placeholder="  Email  " name="email" class="email"><br>
+    <label for="password" style="font-size: 30px;">Password:</label>
+    <input type="password" placeholder="  Password  " name="password" class="password"><br>
+    <input type="submit" value="Submit" class="  submit  " style="font-size: 30px;">
+    </form>
+</body>
+</html>
